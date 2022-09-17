@@ -49,7 +49,7 @@ function playRound() {
         alert(`Your opponent selected ${computerSelection}. You lose! Scissors beats Paper!`);
         computerScore += 1;
         return computerScore;
-    } else {
+    } else if (playersSelect === computerSelection) {
         console.log(`Your opponent selected ${computerSelection} as well. Draw! No point awarded!`);
         alert(`Your opponent selected ${computerSelection} as well. Draw! No point awarded!`);
     }
