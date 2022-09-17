@@ -50,8 +50,11 @@ function playRound() {
         computerScore += 1;
         return computerScore;
     } else if (playersSelect === computerSelection) {
-        console.log(`Your opponent selected ${computerSelection} as well. Draw! No point awarded!`);
         alert(`Your opponent selected ${computerSelection} as well. Draw! No point awarded!`);
+        console.log(`Your opponent selected ${computerSelection} as well. Draw! No point awarded!`);
+    } else {
+        alert(`${playersSelect} is not a valid answer. No points awarded.`);
+        console.log(`${playersSelect} is not a valid answer. No points awarded.`);
     }
  }
   
