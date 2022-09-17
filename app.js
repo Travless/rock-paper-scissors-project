@@ -60,12 +60,30 @@ function playRound() {
  function game() {
     for (let i = 0; i < 5; i++) {
         playRound();
-        alert(`Current score: Player's Score = ${playerScore}, Computer's Score = ${computerScore}`);
-        console.log(`Current score: Player's Score = ${playerScore}, Computer's Score = ${computerScore}`);
+        alert(`Current score: Player's Score = ${playerScore}, Opponent's Score = ${computerScore}`);
+        console.log(`Current score: Player's Score = ${playerScore}, Opponent's Score = ${computerScore}`);
     }
     if (playerScore > computerScore) {
-        alert()
+        alert(`Final Score: Player's Score = ${playerScore}, Opponent's Score = ${computerScore}. You win!`);
+        console.log(`Final Score: Player's Score = ${playerScore}, Opponent's Score = ${computerScore}. You win!`);
+    } else if (playerScore < computerScore) {
+        alert(`Final Score: Player's Score = ${playerScore}, Opponent's Score = ${computerScore}. You lose!`);
+        console.log(`Final Score: Player's Score = ${playerScore}, Opponent's Score = ${computerScore}. You lose!`);
+    } else {
+        alert(`Final Score: Player's Score = ${playerScore}, Opponent's Score = ${computerScore}. Tie Game!`);
+        console.log(`Final Score: Player's Score = ${playerScore}, Opponent's Score = ${computerScore}. Tie Game!`);
+    }
+    let replayGame = prompt('Would you like to play again? Please enter Yes or No.');
+    if (replayGame === 'Yes') {
+        game();
+    } else if (replayGame === 'No') {
+        alert('Thank you for playing!');
+        console.log('Thank you for playing!');
+    } else {
+        alert('Invalid Answer. Please enter Yes or No.');
+        console.log('Invalid Answer. Please enter Yes or No.');
+        replayGame;
     }
  }
  
-//  game();
+ game();
