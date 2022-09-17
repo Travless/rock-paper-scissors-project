@@ -57,3 +57,15 @@ function playRound() {
   
  // playRound();
  
+ function game() {
+    for (let i = 0; i < 5; i++) {
+        playRound();
+        alert(`Current score: Player's Score = ${playerScore}, Computer's Score = ${computerScore}`);
+        console.log(`Current score: Player's Score = ${playerScore}, Computer's Score = ${computerScore}`);
+    }
+    if (playerScore > computerScore) {
+        alert()
+    }
+ }
+ 
+//  game();
