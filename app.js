@@ -132,16 +132,3 @@ scissorsBtn.addEventListener('click', function(e) {
     disableBtns();
 });
 
-
-
-// let replayGame = prompt('Would you like to play again? Please enter Yes or No.');
-// if (replayGame === 'Yes') {
-//     game();
-// } else if (replayGame === 'No') {
-//     alert('Thank you for playing!');
-//     console.log('Thank you for playing!');
-// } else {
-//     alert('Invalid Answer. Please enter Yes or No.');
-//     console.log('Invalid Answer. Please enter Yes or No.');
-//     replayGame;
-// }

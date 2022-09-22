@@ -1,0 +1,59 @@
+[33mcommit cf6ef301898602396750a07c314d9c92264011aa[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/rps-ui[m[33m, [m[1;32mrps-ui[m[33m)[m
+Author: Travless <travis.white0101@gmail.com>
+Date:   Thu Sep 22 14:25:09 2022 -0400
+
+    first draft with UI functionality
+
+[33mcommit af56bf77a70e6959897c531012e2a229a7c5e090[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Travless <travis.white0101@gmail.com>
+Date:   Sat Sep 17 15:13:10 2022 -0400
+
+    add response to invalid inputs, resulting in no points awarded
+
+[33mcommit 6c339bf35ab793d6e87f2608534feb4c1511fcf9[m
+Author: Travless <travis.white0101@gmail.com>
+Date:   Sat Sep 17 15:00:57 2022 -0400
+
+    fix bug that returns draw when different choicesa are made
+
+[33mcommit 0dd1863a9d29dd7d557e8add769771f5ef561f4b[m
+Author: Travless <travis.white0101@gmail.com>
+Date:   Sat Sep 17 14:57:29 2022 -0400
+
+    changed index's page title
+
+[33mcommit a6df742e11e5d4cf04be0dc038af7d849dd319a0[m
+Author: Travless <travis.white0101@gmail.com>
+Date:   Sat Sep 17 14:48:41 2022 -0400
+
+    Provide player with final score results and ability to replay game based on user's input
+
+[33mcommit e076c9b7711845c51adc2c3aefc49b326d039b67[m
+Author: Travless <travis.white0101@gmail.com>
+Date:   Sat Sep 17 14:05:19 2022 -0400
+
+    create game() function to loop through five iterations of the playRound() function, comparing playerScore and computerScore variables at the conclusion, provide player with results of contest by both alerting and logging in the console.
+
+[33mcommit 89e6c3b791a9b88ca3854a5a40a058cc41711336[m
+Author: Travless <travis.white0101@gmail.com>
+Date:   Sat Sep 17 14:01:44 2022 -0400
+
+    create playRound() function that asks the user to input their selection of a choice between rock, paper, or scissors, runs the getComputerChoice function previously established, compares the two choices, and returns a winner by both alerting the player of the decision and logging it in the console. also return the scoring decision to either playerScore or computerScore variables.
+
+[33mcommit 7e6ecc42a5129ca179bb519cb83b7d5768f6b9f2[m
+Author: Travless <travis.white0101@gmail.com>
+Date:   Sat Sep 17 13:56:46 2022 -0400
+
+    create getComputerChoice function to randomly generate a chocie of 'rock, paper, scissors' for the computer opponent
+
+[33mcommit 17fead839194872fe78932d0c175c96c93237071[m
+Author: Travless <travis.white0101@gmail.com>
+Date:   Sat Sep 17 12:40:08 2022 -0400
+
+    initial commit for index and js scripting
+
+[33mcommit fb5d7350eb5f0a07bafc75155114426bb2b13513[m
+Author: Travless <90566281+Travless@users.noreply.github.com>
+Date:   Sat Sep 17 12:36:53 2022 -0400
+
+    Initial commit
